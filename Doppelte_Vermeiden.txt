@@ -1,0 +1,9 @@
+// Vergleich mit vorhergehenden Wert oder Zahlen
+
+for (int k=0;k<i;k++)
+
+	{
+		if(lotto[k]==lotto[i]) {
+			i--;
+			k=i;
+		}
